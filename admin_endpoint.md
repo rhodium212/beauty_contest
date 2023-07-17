@@ -1,4 +1,4 @@
-#### GET /admin/users
+#### 1. GET /admin/users
 
 - Hak akses: User dengan role 'ADMIN'
 
@@ -31,7 +31,7 @@
 }
 ```
 
-#### PUT /admin/users/{user_id}
+#### 2. PUT /admin/users/{user_id}
 
 - Hak akses: User dengan role 'ADMIN'
 
@@ -60,7 +60,7 @@
 }
 ```
 
-#### POST /admin/services
+#### 3. POST /admin/services
 
 - Hak akses: User dengan role 'ADMIN'
 - Parameter body:
@@ -88,7 +88,7 @@
 }
 ```
 
-#### GET /admin/services
+#### 4. GET /admin/services
 
 - Hak akses: User dengan role 'ADMIN'
 
@@ -108,7 +108,7 @@
 }
 ```
 
-#### PUT /admin/services/{service_id}
+#### 5. PUT /admin/services/{service_id}
 
 - Hak akses: User dengan role 'ADMIN'
 - Parameter path:
@@ -138,7 +138,7 @@
 }
 ```
 
-#### DELETE /admin/services/{service_id}
+#### 6. DELETE /admin/services/{service_id}
 
 - Hak akses: User dengan role 'ADMIN'
 - Parameter path:
@@ -153,7 +153,7 @@
 ```
 
 
-#### GET /admin/therapists
+#### 7. GET /admin/therapists
 
 - Hak akses: Hanya User dengan role 'ADMIN'
 
@@ -223,7 +223,7 @@
 ```
 
 
-#### GET /admin/activity_history
+#### 8. GET /admin/activity_history
 
 - Hak akses: Hanya admin (auth token diperlukan)
 
@@ -263,7 +263,7 @@
 }
 ```
 
-#### GET /admin/activity_history/{id}
+#### 9. GET /admin/activity_history/{id}
 
 - Hak akses: Hanya admin (auth token diperlukan)
 
@@ -289,7 +289,7 @@
 }
 ```
 
-#### GET /admin/orders
+#### 10. GET /admin/orders
 
 - Hak akses: Hanya admin (auth token diperlukan)
 
@@ -323,7 +323,7 @@
 }
 ```
 
-#### GET /admin/orders/{id}
+#### 11. GET /admin/orders/{id}
 
 - Hak akses: Hanya admin (auth token diperlukan)
 
@@ -389,7 +389,7 @@
 }
 ```
 
-#### GET /admin/therapists/{therapist_id}/ratings
+#### 12. GET /admin/therapists/{therapist_id}/ratings
 
 - Hak akses: Hanya admin (auth token diperlukan)
 
@@ -432,7 +432,7 @@
 }
 ```
 
-#### GET /admin/payments
+#### 13. GET /admin/payments
 
 - Hak akses: Hanya admin (auth token diperlukan)
 
@@ -468,7 +468,7 @@
 }
 ```
 
-#### GET /admin/payments
+#### 14. GET /admin/payments
 
 - Hak akses: Hanya admin (auth token diperlukan)
 
@@ -520,7 +520,7 @@
 }
 ```
 
-#### GET /admin/users/balance
+#### 15. GET /admin/users/balance
 
 - Hak akses: Hanya admin (auth token diperlukan)
 
